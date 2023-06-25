@@ -4,10 +4,10 @@ import { FiSearch } from "react-icons/fi";
 const Navbar = () => {
   return (
     <div className="w-full my-3">
-      <div className="navbar bg-base-100 w-11/12 mx-auto  my-3">
+      <div className="navbar bg-base-100 w-10/12 mx-auto my-3 px-0">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden pl-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -49,10 +49,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn text-primary normal-case text-xl bg-base-100 border-none font-extrabold hover:bg-base-100">
+          <a className="btn text-primary normal-case text-xl bg-base-100 border-none font-extrabold hover:bg-base-100 pl-0">
             NFTERS
           </a>
-          <div className="hidden lg:flex gap-10 ml-6">
+          <div className="hidden lg:flex gap-8 ml-16">
             <a className="font-bold text-sm hover:text-primary" href="#">
               Marketplace
             </a>
@@ -76,11 +76,11 @@ const Navbar = () => {
         {/* only visible for large device */}
         <div className="hidden lg:flex gap-3">
           <button className="bg-primary rounded-full px-7 py-2">
-            <a className="text-white text-xs font-semibold">Upload</a>
+            <a className="text-white text-sm font-semibold">Upload</a>
           </button>
           
           <button className="">
-            <a className="hidden md:flex text-primary text-xs font-semibold bg-white border border-primary rounded-full px-4 py-3 hover:bg-primary hover:text-white">
+            <a className="hidden md:flex text-primary text-sm font-semibold bg-white border border-primary rounded-full px-4 py-3 hover:bg-primary hover:text-white">
               Connect <span className="ml-1">Wallet</span>
             </a>
           </button>
