@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from './Header';
+import Transaction from './Transaction';
 
 const HomePage = () => {
     return (
-        <div className='w-10/12 mx-auto'>
+        <div className=''>
             <Header/>
+            <Transaction/>
         </div>
     );
 };
