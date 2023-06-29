@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div className="max-w-[1450px] mx-auto">
       <Navbar />
       <HomePage/>
       <Footer/>

@@ -94,7 +94,7 @@ const FooterMedium = () => {
             <input
               type="text"
               placeholder="Enter your email address.."
-              className="w-full pr-16 text-xs"
+              className="focus:outline-none w-full pr-16 text-xs"
             />
             <button className="bg-success text-white text-xs font-bold rounded-full px-3 py-2 absolute right-2">
               Subscribe Now

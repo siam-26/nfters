@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Transaction from './Transaction';
-import TopCollections from './TopCollections';
+import TopCollections from './TopCollections/TopCollections';
 
 const HomePage = () => {
     return (
